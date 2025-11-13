@@ -24,6 +24,10 @@ The Lambda function processes the data and writes a structured record to DynamoD
 
 
 
+![a](IMG/8.png)
+
+
+
 
 ## 🧰 Services Used
 
@@ -183,16 +187,15 @@ pipeline {
 
 ### 🗄️ DynamoDB Entry Sample
 
-| Field          | Example Value              | Screenshot |
-|----------------|----------------------------|------------|
-| **incident_id** | f03a-44cc-91ab-1312        | *(add image)* |
-| **build_name**  | MyPipeline_main            | *(add image)* |
-| **status**      | FAILED                     | *(add image)* |
-| **error_message** | Unit tests failed        | *(add image)* |
-| **timestamp**   | 2025-11-12T16:30:45Z       | *(add image)* |
+| Field            | Screenshot |
+|------------------|------------|
+| **jenkins Dashboard**  | ![jenkins](IMG/1.png)|
+| **Ec2 Dashboard**   | ![jenkins](IMG/2.png)|
+| **IAM Role**        | ![jenkins](IMG/3.png) |
+| **Lambda** | ![jenkins](IMG/4.png) |
+| **API Gateway Dashboard**     | ![jenkins](IMG/5.png)|
+| **DyanamoDB Stored Data**     | ![jenkins](IMG/6.png)|
 
-> To insert screenshots later, replace ***(add image)*** with:  
-> `![screenshot](images/filename.png)`  
 
 
 ## 📁 Project Structure
